@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Light theme */
+:root {
+  --body-bg: #faf5ff;
+  --text-color: #1f2937;
+  --heading-color: #a855f7;
+  --button-bg: #9333ea;
+  --button-hover: #7e22ce;
+  --button-text: #ffffff;
+}
+
+/* Dark theme */
+.dark_mode {
+  --body-bg: #1f1b2e;
+  --text-color: #f3e8ff;
+  --heading-color: #c084fc;
+  --button-bg: #7e22ce;
+  --button-hover: #6b21a8;
+  --button-text: #ffffff;
+}
+
+/* Main app */
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+/* Website title */
+.site-title {
+  color: var(--heading-color);
+}
+
+/* Theme button */
+.theme-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.theme-button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Navigation links */
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--heading-color);
+}
